@@ -1,0 +1,54 @@
+/* Destination.css */
+
+.place-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .place-card {
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .place-card:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .place-card h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .place-card p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  /* Detail Visibility Animation */
+  .place-card-details-enter {
+    opacity: 0;
+  }
+  
+  .place-card-details-enter-active {
+    opacity: 1;
+    transition: opacity 300ms;
+  }
+  
+  .place-card-details-exit {
+    opacity: 1;
+  }
+  
+  .place-card-details-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+  }
+  

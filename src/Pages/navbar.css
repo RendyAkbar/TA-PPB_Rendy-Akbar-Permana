@@ -1,0 +1,45 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(67, 73, 253);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.navbar-logo {
+    color: #0de1c4e1;
+    cursor: pointer;
+    
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: rgb(56, 189, 23)6;
+}

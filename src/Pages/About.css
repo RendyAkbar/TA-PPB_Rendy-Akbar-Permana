@@ -1,0 +1,64 @@
+/* Basic Styling */
+
+ 
+ .about-us {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #fff;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  border-radius: 5px;
+  overflow: visible; /* Tambahkan ini */
+ }
+ 
+ h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #444;
+  margin-bottom: 15px;
+ }
+ 
+ p {
+  line-height: 1.6;
+  font-size: 1.125rem;
+  color: #666;
+ }
+ 
+ /* Typography */
+ .about-us p {
+  margin-bottom: 20px;
+ }
+ 
+ .about-us a {
+  color: #1a73e8;
+  text-decoration: none;
+ }
+ 
+ .about-us a:hover {
+  text-decoration: underline;
+ }
+ 
+ /* Links */
+ .about-us ul {
+  list-style-type: none;
+  padding: 0;
+ }
+ 
+ .about-us li {
+  margin-bottom: 5px;
+ }
+ 
+ /* Media Queries */
+ @media screen and (max-width: 768px) {
+  .about-us {
+     padding: 20px;
+  }
+ 
+  h1 {
+     font-size: 2rem;
+  }
+ 
+  p {
+     font-size: 1rem;
+  }
+ }
